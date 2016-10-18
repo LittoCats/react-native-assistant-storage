@@ -1,0 +1,39 @@
+{
+  "name": "littocats",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "15.3.2",
+    "react-native": "0.35.0",
+    "squel": "^5.5.0"
+  },
+  "description": "Storage Assistant with sqlite3 backend for react-native.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittoCats/react-native-assistant-storage.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "assistant",
+    "storage",
+    "sqlite",
+    "sqlite3",
+    "key-value",
+    "db",
+    "ios",
+    "android"
+  ],
+  "author": "程巍巍",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/LittoCats/react-native-assistant-storage/issues"
+  },
+  "homepage": "https://github.com/LittoCats/react-native-assistant-storage#readme"
+}
