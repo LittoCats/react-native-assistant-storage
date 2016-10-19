@@ -214,7 +214,7 @@
 		A11D0F061DB6203B003F7DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -224,7 +224,7 @@
 		A11D0F071DB6203B003F7DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				HEADER_SEARCH_PATHS = "$(SRCROOT)/../node_modules/react-native/React";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
