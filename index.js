@@ -1,6 +1,6 @@
-import Session from './lib/session'
-import Assistant from './lib/assistant'
+import Connection from './lib/connection'
 import KVStore from './lib/key-value'
-import UUID from './lib/uuid'
+import Persistence from './lib/persistence'
+import PersistenceAssistant from './lib/persistence.store.assistant'
 
-export {Assistant, KVStore, UUID}
+export {Connection, KVStore, Persistence, PersistenceAssistant}
