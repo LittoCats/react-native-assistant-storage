@@ -182,7 +182,12 @@ RCT_EXPORT_METHOD(sqlite3_execute:(NSUInteger)db withSql:(NSString*)sql params:(
           };
     }
     
-    callback(@[error ?: NSNull.null, resust ?: NSNull.null]);
+    NSString* retStr = nil;
+    if (resust) {
+        NSData* data = [NSJSONSerialization dataWithJSONObject:resust options:0 error:nil];
+        retStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    }
+    callback(@[error ?: NSNull.null, retStr ?: NSNull.null]);
 }
 
 RCT_EXPORT_METHOD(sqlite3_close:(NSUInteger)db callback:(RCTResponseSenderBlock)callback)
